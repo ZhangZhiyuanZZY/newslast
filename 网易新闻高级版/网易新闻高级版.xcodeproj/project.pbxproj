@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1871328B1C09F24E0065C54F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1871328A1C09F24E0065C54F /* main.m */; };
+		1871328E1C09F24E0065C54F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1871328D1C09F24E0065C54F /* AppDelegate.m */; };
+		187132961C09F24E0065C54F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187132951C09F24E0065C54F /* Assets.xcassets */; };
+		187132991C09F24E0065C54F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187132971C09F24E0065C54F /* LaunchScreen.storyboard */; };
+		187132A61C09F6750065C54F /* ZYHeadlineNewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187132A11C09F6750065C54F /* ZYHeadlineNewsController.m */; };
+		187132A71C09F6750065C54F /* ZYHeadlineTileLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 187132A31C09F6750065C54F /* ZYHeadlineTileLabel.m */; };
+		187132A81C09F6750065C54F /* ZYNewsHeadPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187132A51C09F6750065C54F /* ZYNewsHeadPageViewController.m */; };
+		187132AB1C09F74B0065C54F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187132A91C09F74B0065C54F /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		187132861C09F24E0065C54F /* 网易新闻高级版.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网易新闻高级版.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1871328A1C09F24E0065C54F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1871328C1C09F24E0065C54F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1871328D1C09F24E0065C54F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		187132951C09F24E0065C54F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187132981C09F24E0065C54F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1871329A1C09F24E0065C54F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187132A01C09F6750065C54F /* ZYHeadlineNewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHeadlineNewsController.h; sourceTree = "<group>"; };
+		187132A11C09F6750065C54F /* ZYHeadlineNewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHeadlineNewsController.m; sourceTree = "<group>"; };
+		187132A21C09F6750065C54F /* ZYHeadlineTileLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHeadlineTileLabel.h; sourceTree = "<group>"; };
+		187132A31C09F6750065C54F /* ZYHeadlineTileLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHeadlineTileLabel.m; sourceTree = "<group>"; };
+		187132A41C09F6750065C54F /* ZYNewsHeadPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYNewsHeadPageViewController.h; sourceTree = "<group>"; };
+		187132A51C09F6750065C54F /* ZYNewsHeadPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYNewsHeadPageViewController.m; sourceTree = "<group>"; };
+		187132AA1C09F74B0065C54F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187132831C09F24E0065C54F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1871327D1C09F24E0065C54F = {
+			isa = PBXGroup;
+			children = (
+				187132881C09F24E0065C54F /* 网易新闻高级版 */,
+				187132871C09F24E0065C54F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		187132871C09F24E0065C54F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187132861C09F24E0065C54F /* 网易新闻高级版.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187132881C09F24E0065C54F /* 网易新闻高级版 */ = {
+			isa = PBXGroup;
+			children = (
+				1871328C1C09F24E0065C54F /* AppDelegate.h */,
+				1871328D1C09F24E0065C54F /* AppDelegate.m */,
+				187132A01C09F6750065C54F /* ZYHeadlineNewsController.h */,
+				187132A11C09F6750065C54F /* ZYHeadlineNewsController.m */,
+				187132A21C09F6750065C54F /* ZYHeadlineTileLabel.h */,
+				187132A31C09F6750065C54F /* ZYHeadlineTileLabel.m */,
+				187132A41C09F6750065C54F /* ZYNewsHeadPageViewController.h */,
+				187132A51C09F6750065C54F /* ZYNewsHeadPageViewController.m */,
+				187132951C09F24E0065C54F /* Assets.xcassets */,
+				187132A91C09F74B0065C54F /* Main.storyboard */,
+				187132971C09F24E0065C54F /* LaunchScreen.storyboard */,
+				1871329A1C09F24E0065C54F /* Info.plist */,
+				187132891C09F24E0065C54F /* Supporting Files */,
+			);
+			path = "网易新闻高级版";
+			sourceTree = "<group>";
+		};
+		187132891C09F24E0065C54F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1871328A1C09F24E0065C54F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187132851C09F24E0065C54F /* 网易新闻高级版 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1871329D1C09F24E0065C54F /* Build configuration list for PBXNativeTarget "网易新闻高级版" */;
+			buildPhases = (
+				187132821C09F24E0065C54F /* Sources */,
+				187132831C09F24E0065C54F /* Frameworks */,
+				187132841C09F24E0065C54F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "网易新闻高级版";
+			productName = "网易新闻高级版";
+			productReference = 187132861C09F24E0065C54F /* 网易新闻高级版.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1871327E1C09F24E0065C54F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ZZY;
+				TargetAttributes = {
+					187132851C09F24E0065C54F = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 7R5X3C7UD7;
+					};
+				};
+			};
+			buildConfigurationList = 187132811C09F24E0065C54F /* Build configuration list for PBXProject "网易新闻高级版" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1871327D1C09F24E0065C54F;
+			productRefGroup = 187132871C09F24E0065C54F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187132851C09F24E0065C54F /* 网易新闻高级版 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187132841C09F24E0065C54F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187132AB1C09F74B0065C54F /* Main.storyboard in Resources */,
+				187132991C09F24E0065C54F /* LaunchScreen.storyboard in Resources */,
+				187132961C09F24E0065C54F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187132821C09F24E0065C54F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187132A61C09F6750065C54F /* ZYHeadlineNewsController.m in Sources */,
+				187132A81C09F6750065C54F /* ZYNewsHeadPageViewController.m in Sources */,
+				1871328E1C09F24E0065C54F /* AppDelegate.m in Sources */,
+				1871328B1C09F24E0065C54F /* main.m in Sources */,
+				187132A71C09F6750065C54F /* ZYHeadlineTileLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		187132971C09F24E0065C54F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187132981C09F24E0065C54F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		187132A91C09F74B0065C54F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187132AA1C09F74B0065C54F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1871329B1C09F24E0065C54F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1871329C1C09F24E0065C54F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1871329E1C09F24E0065C54F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "网易新闻高级版/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZZY.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1871329F1C09F24E0065C54F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "网易新闻高级版/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZZY.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187132811C09F24E0065C54F /* Build configuration list for PBXProject "网易新闻高级版" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1871329B1C09F24E0065C54F /* Debug */,
+				1871329C1C09F24E0065C54F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1871329D1C09F24E0065C54F /* Build configuration list for PBXNativeTarget "网易新闻高级版" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1871329E1C09F24E0065C54F /* Debug */,
+				1871329F1C09F24E0065C54F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1871327E1C09F24E0065C54F /* Project object */;
+}
